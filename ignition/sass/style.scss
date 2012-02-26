@@ -1,0 +1,37 @@
+@import "grid";
+@import "boilerplate";
+
+// Default Variables
+
+$column-width: 60px;
+$gutter-width: 20px;
+$columns: 12;
+$default-width: 100%;
+
+// Default styling goes here
+
+
+
+// responsive breakpoints stolen from 320 and up (http://stuffandnonsense.co.uk/projects/320andup/)
+
+@media only screen and (min-width: 480px) {
+	@import "480";
+}
+
+@media only screen and (min-width: 600px) {
+	@import "600";
+}
+
+@media only screen and (min-width: 768px) {
+	@import "768";
+}
+
+@media only screen and (min-width: 992px) {
+	@import "992";
+}
+
+@media only screen and (min-width: 1382px) {
+	@import "1382";
+}
+
+@import "boilerplate-bottom";

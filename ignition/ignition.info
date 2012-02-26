@@ -4,7 +4,7 @@ package = Core
 version = VERSION
 core = 7.x
 
-stylesheets[all][] = css/layout.css
+stylesheets[all][] = stylesheets/style.css
 
 
 # Change regions to your taste or projects need
